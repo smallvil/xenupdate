@@ -1,11 +1,18 @@
 Xenserver Update Script V0.1 for Xenserver 6.1.0
 
-Last Date: 2013-02-01
+Last Date: 2013-02-03
 
 written by Dennis Jang <smallvil@gmail.com>
 
+PATCH:
+XS61E001
+XS61E003
+XS61E004
+XS61E006
+XS61E009
+XS61E010
 
-Requirements: patch files url
+Requirements: webserver in xenserver patch files
 
 
 Usage:
