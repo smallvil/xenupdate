@@ -7,7 +7,8 @@ let n=0
 VERSION='6.1.0'
 
 # Update PATCH file URL
-URL='http://<update server>/Xenserver'
+URL='https://github.com/smallvil/xenupdate/updates'
+
 # program
 AWK="/bin/awk"
 CAT="/bin/cat"
