@@ -7,7 +7,8 @@ let n=0
 VERSION='6.1.0'
 
 # Update PATCH file URL
-URL='https://github.com/smallvil/xenupdate/updates'
+URL='https://github.com/smallvil/xenupdate/raw/master/updates'
+URL_OPT='--no-check-certificate'
 
 # program
 AWK="/bin/awk"
@@ -126,7 +127,7 @@ do
 	let n=${n}+1
 	echo "[DOWN ${n}] ${URL}/${i}.xsupdate"
 	#echo "${WGET}  ${URL}/${i}.xsupdate 1>/dev/null 2>&1"
-	${WGET}  ${URL}/${i}.xsupdate 1>/dev/null 2>&1
+	${WGET} ${URL_OPT} ${URL}/${i}.xsupdate 1>/dev/null 2>&1
 done
 # }}}
 
